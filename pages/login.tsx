@@ -5,7 +5,9 @@ import SnackbarComponent from './components/SnackbarComponent';
 const HomePage: React.FC = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>Login Page</h1>
+      <Login />
+      <SnackbarComponent/>
     </div>
   );
 };
